@@ -1,0 +1,2 @@
+rootProject.name = "Wilserve-Fleethub-2"
+include ':app'

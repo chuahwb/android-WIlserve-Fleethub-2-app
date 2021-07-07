@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WilserveFleetHub</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="company_name">Wilserve Tradings</string>
+    <string name="employee_login">Log In</string>
+    <string name="login_error_blank">Username or Password cannot be left emptied. Please try again.</string>
+    <string name="login_error_invalid">Username or Password incorrect. Please try again.</string>
+</resources>
