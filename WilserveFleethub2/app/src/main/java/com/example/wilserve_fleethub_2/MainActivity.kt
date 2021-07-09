@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity(){
 
     private fun checkValidity(username:String,password:String){
         val topicPub = "identity"
-        val message = "{\"${topicPub}\":{\"username\":\"${username}\",\"password\":\"${password}\"}}"
+        val message = "{\"username\":\"${username}\",\"password\":\"${password}\"}"
         try {
             mqttClient.publish(topicPub, message)
         } catch (ex: MqttException) {
